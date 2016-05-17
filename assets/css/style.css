@@ -1,0 +1,131 @@
+@import url(owl.carousel/dist/assets/owl.carousel.css);
+@font-face {
+  font-family: 'IRANSans-Bold-web';
+  font-style: bold;
+  font-weight: 600;
+  src: local("IRANSans-Bold-web"), local("IRANSans-Bold-web"), url(../fonts/IRANSans-Bold-web.ttf) format("ttf");
+}
+@font-face {
+  font-family: 'IRANSans-Light-web';
+  font-style: normal;
+  font-weight: 200;
+  src: local("IRANSans-Light-web"), local("IRANSans-Light-web"), url(../fonts/IRANSans-Light-web.ttf) format("ttf");
+}
+@font-face {
+  font-family: 'IRANSans-Bold-web';
+  font-style: bold;
+  font-weight: 600;
+  src: local("IRANSans-Bold-web"), local("IRANSans-Bold-web"), url(../fonts/IRANSans-Bold-web.woff) format("woff");
+}
+@font-face {
+  font-family: 'IRANSans-Light-web';
+  font-style: normal;
+  font-weight: 200;
+  src: local("IRANSans-Light-web"), local("IRANSans-Light-web"), url(../fonts/IRANSans-Light-web.woff) format("woff");
+}
+/* line 1, ../sass/modules/_top.scss */
+.slider {
+  height: 23rem;
+  margin-top: 30px;
+  display: inline-block;
+}
+/* line 5, ../sass/modules/_top.scss */
+.slider div {
+  z-index: 10;
+}
+
+/* line 1, ../sass/modules/_base.scss */
+body {
+  font: 200 0.8em/1.1em "IRANSans-Light-web", "Roboto", Helvetica, Arial, sans-serif;
+  direction: rtl;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* line 9, ../sass/modules/_base.scss */
+main {
+  flex: 1 0 auto;
+}
+
+/* line 13, ../sass/modules/_base.scss */
+.loader {
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  position: absolute;
+  padding: 20px 0;
+}
+
+/* line 23, ../sass/modules/_base.scss */
+h1 {
+  font: 600 1em/1.5em "IRANSans-Bold-web", "Roboto", Helvetica, Arial, sans-serif;
+}
+
+/* line 26, ../sass/modules/_base.scss */
+.header-title {
+  color: #e57373;
+  font-size: 2em;
+}
+
+/* line 30, ../sass/modules/_base.scss */
+p {
+  line-height: 2.4em;
+}
+
+/* line 33, ../sass/modules/_base.scss */
+.padding-bottom {
+  padding-bottom: 30px;
+}
+
+/* line 36, ../sass/modules/_base.scss */
+.padding-top {
+  padding-top: 30px;
+}
+
+/* line 40, ../sass/modules/_base.scss */
+#handsontable {
+  height: 120%;
+}
+
+/* line 1, ../sass/modules/_main.scss */
+body {
+  background: #EAEAEA;
+  direction: rtl;
+}
+
+/* line 8, ../sass/modules/_main.scss */
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+/* line 14, ../sass/modules/_main.scss */
+main {
+  flex: 1 0 auto;
+}
+
+/* line 19, ../sass/modules/_main.scss */
+.owl-carousel .item {
+  height: 20rem;
+  padding: 1rem;
+}
+
+/* line 3, ../sass/modules/_footer.scss */
+#footer-links li a {
+  padding: 5px;
+}
+
+/* line 8, ../sass/modules/_footer.scss */
+#footer-icon {
+  position: relative;
+  top: 10px;
+  height: 32px;
+  margin-left: 10px;
+  margin-right: 10px;
+}

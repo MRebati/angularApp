@@ -1,0 +1,42 @@
+body {
+  font: $contentFont;
+  direction: rtl;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  overflow: hidden;
+}
+main {
+  flex: 1 0 auto;
+}
+
+.loader {
+  width: 100%;
+  height: 100%;
+  background: $light;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  position: absolute;
+  padding: 20px 0;
+}
+h1 {
+  font: $headFont;
+}
+.header-title {
+  color: $pink;
+  font-size: 2em;
+}
+p {
+  line-height: 2.4em;
+}
+.padding-bottom {
+  padding-bottom: 30px;
+}
+.padding-top {
+  padding-top: 30px;
+}
+
+#handsontable {
+  height: 120%;
+}

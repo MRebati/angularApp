@@ -1,0 +1,39 @@
+$black    : #000;
+
+//susy
+
+$susy: (
+  columns: 12,
+  container: 85%,
+  math: fluid,
+  flow:ltr,
+  output: float,
+  gutters: 1/4,
+  gutter-position: split,
+  global-box-sizing: content-box
+);
+
+$narrow: 400px;
+$small: 650px;
+$medium: 960px;
+$wide: 1200px;
+
+
+//fonts
+$lightFont       	: 'IRANSans-Light-web', 'Roboto', Helvetica, Arial, sans-serif;
+$boldFont       	: 'IRANSans-Bold-web', 'Roboto', Helvetica, Arial, sans-serif;
+
+$thin     : 200;
+$normal   : 400;
+$bold     : 600;
+$heavy    : 800;
+
+$contentFont       : $thin 0.8em/1.1em $lightFont;
+$headFont          : $bold 1em/1.5em $boldFont;
+
+//colors
+
+$light        : #ffffff;
+$dark         : #000000;
+$pink         : #e57373;
+$headerColor  : #04F78A;

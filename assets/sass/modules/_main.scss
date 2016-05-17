@@ -1,0 +1,23 @@
+body{
+  background:#EAEAEA;
+  direction:rtl;
+
+}
+
+//Make the Footer sticky
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+.owl-carousel{
+  .item{
+    height: 20rem;
+    padding: 1rem;
+  }
+}
